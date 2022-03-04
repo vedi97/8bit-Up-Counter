@@ -1,6 +1,6 @@
 /***************************************************************************
- *** Creating asynchronous reset with clock which 			                 ***
- *** will fed into 8bit up counter later on 			 	                     ***
+ *** Creating asynchronous reset with clock which 			 ***
+ *** will fed into 8bit up counter Top level module later on 		 ***
  ***************************************************************************/
 `timescale 1 ns/ 1 ns
 
