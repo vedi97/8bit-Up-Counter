@@ -1,0 +1,99 @@
+Command: /home/users11/vg445531/ECE526LSP22/Lab5/./simv -l Counter.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Mar  3 09:24 2022
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0: Clock= 0 ==> RESET= x, ENABLE= x, LOAD= x, DATA= xxxxxxxx.....|.....Count= xxxxxxxx
+
+ Asynchronous reset: 
+
+                  10: Clock= 1 ==> RESET= 0, ENABLE= x, LOAD= x, DATA= xxxxxxxx.....|.....Count= 00000000
+                  20: Clock= 0 ==> RESET= 0, ENABLE= x, LOAD= x, DATA= xxxxxxxx.....|.....Count= 00000000
+
+ Counter Initiation:
+                  30: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000000
+                  40: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000000
+                  50: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000000
+                  60: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000000
+                  70: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000001
+                  80: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000001
+                  90: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000010
+                 100: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000010
+                 110: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000011
+                 120: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000011
+                 130: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000100
+                 140: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000100
+                 150: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000101
+                 160: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000101
+                 170: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000110
+                 180: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000110
+                 190: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000111
+                 200: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00000111
+                 210: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00001000
+                 220: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= xxxxxxxx.....|.....Count= 00001000
+
+ After 8 count, parallel load of 250:
+                 230: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 11111010
+                 240: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 11111010
+
+ Starts counting from 250 (250 not included):
+                 250: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111011
+                 260: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111011
+                 270: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111100
+                 280: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111100
+                 290: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111101
+                 300: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111101
+                 310: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111110
+                 320: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111110
+                 330: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111111
+                 340: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 11111111
+                 350: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 00000000
+                 360: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 00000000
+                 370: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 00000001
+                 380: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 11111010.....|.....Count= 00000001
+
+ Demonstration of reset overrides load:
+                 390: Clock= 1 ==> RESET= 0, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 00000000
+                 400: Clock= 0 ==> RESET= 0, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 00000000
+                 410: Clock= 1 ==> RESET= 0, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 00000000
+                 420: Clock= 0 ==> RESET= 0, ENABLE= 1, LOAD= 1, DATA= 11111010.....|.....Count= 00000000
+
+ Demonstration of reset overrides enable:
+                 430: Clock= 1 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 440: Clock= 0 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 450: Clock= 1 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 460: Clock= 0 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 470: Clock= 1 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 480: Clock= 0 ==> RESET= 0, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 490: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 500: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 510: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 520: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000000
+                 530: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000001
+                 540: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000001
+                 550: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000010
+                 560: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000010
+                 570: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000011
+                 580: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000011
+                 590: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000100
+                 600: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000100
+                 610: Clock= 1 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+                 620: Clock= 0 ==> RESET= 1, ENABLE= 1, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+
+ Enable Low - Load high:
+                 630: Clock= 1 ==> RESET= 1, ENABLE= 0, LOAD= 1, DATA= 00001111.....|.....Count= 00000101
+                 640: Clock= 0 ==> RESET= 1, ENABLE= 0, LOAD= 1, DATA= 00001111.....|.....Count= 00000101
+                 650: Clock= 1 ==> RESET= 1, ENABLE= 0, LOAD= 1, DATA= 00001111.....|.....Count= 00000101
+                 660: Clock= 0 ==> RESET= 1, ENABLE= 0, LOAD= 1, DATA= 00001111.....|.....Count= 00000101
+
+ Enable low - Load low:
+                 670: Clock= 1 ==> RESET= 1, ENABLE= 0, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+                 680: Clock= 0 ==> RESET= 1, ENABLE= 0, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+                 690: Clock= 1 ==> RESET= 1, ENABLE= 0, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+                 700: Clock= 0 ==> RESET= 1, ENABLE= 0, LOAD= 0, DATA= 00001111.....|.....Count= 00000101
+$finish called from file "Counter1_tb.v", line 91.
+$finish at simulation time                  710
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 710 ns
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Thu Mar  3 09:24:00 2022
